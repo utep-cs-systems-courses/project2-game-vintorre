@@ -35,7 +35,7 @@ void happy_birthday(){
   float notes[27] = {c,c,d,c,f,e,0,c,c,d,c,g,f,0,c,c,c,a,b,g,0,a,a,b,f,g,f};
   for(int i = 0; i < 27; i++){
     buzzer_set_period(notes[i]);
-    __delay_cycles(10000);
+   
    
   }
   buzzer_set_period(0);
